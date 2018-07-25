@@ -7,7 +7,7 @@ def socket_create(): #socket_create() 함수를 정의한다.
         global host     #try를 사용해서 host, port, s 변수를  global로 설정
         global port
         global s
-        host = '203.230.91.250'      #호스트 주소를 입력하고
+        host = '123.132.12.123'      #호스트 주소를 입력하고
         port = 9999                  #임의로 값을 넣어준다.
         s = socket.socket()
     except socket.error as msg:      #소켓을 생성하는데 있어서 에러가 발생한다면 그것을 msg라는 변수로 여긴다.
